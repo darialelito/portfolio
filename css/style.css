@@ -170,12 +170,23 @@
     height: 300px;
 }
 
-.image-one {
+.portfolio-image {
     height: 100%;
-    background-image: url(../images/firstP.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.portfolio-image.one {
+    background-image: url(../images/firstP.png);
+}
+
+.portfolio-image.two {
+    background-image: url(../images/secondP.png);
+}
+
+.portfolio-image.three {
+    background-image: url(../images/thirdP.png);
 }
 
 .portfolio-mask {
@@ -189,18 +200,14 @@
     opacity: 0;
 }
 
-.image-one:hover .portfolio-mask {
+.portfolio-image:hover .portfolio-mask {
     opacity: 1;
 }
 
 .portfolio-icons {
-    background: linear-gradient(to right, #6e3635, #36E8B0);
+    background: linear-gradient(to right, #6e3635 30%, #36E8B0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.portfolio_item-img {
-    width: 100%;
 }
 
 /*footer START*/
