@@ -1,6 +1,6 @@
 /*header START*/
 .main-header {
-    height: 100vh;
+    height: 90vh;
 }
 
 .main-nav {
@@ -79,7 +79,7 @@
 }
 
 /*div.container START*/
-.container {
+.container.header {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -124,8 +124,44 @@
 }
 
 /*section.about START*/
-.about {
+.section_about {
     display: none;
-    height: 70vh;
-    background-color: black;
+}
+
+.section_about.on {
+    display: block;
+    /*    height: 70vh;*/
+    color: rgb(52, 58, 64);
+}
+
+/*section.portfolio START*/
+.section_portfolio {
+    display: none;
+}
+
+.section_portfolio.on {
+    display: block;
+}
+
+.portfolio_h3 {
+    margin-bottom: 10px;
+}
+
+.portfolio_item__firstImg {
+    width: 100%;
+}
+
+/*footer START*/
+.footer-socialIcons {
+    margin: 5px;
+    text-align: right;
+}
+
+.socialIcons {
+    display: inline-block;
+    padding: 0 5px;
+    background-color: #36E8B0;
+    border-radius: 2px;
+    color: black;
+    font-size: 20px;
 }
