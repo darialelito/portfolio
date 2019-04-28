@@ -130,8 +130,21 @@
 
 .section_about.on {
     display: block;
-    /*    height: 70vh;*/
+    margin-bottom: 15px;
     color: rgb(52, 58, 64);
+}
+
+.section_about__p {
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.border-bottom {
+    display: block;
+}
+
+.border-bottom-custom {
+    border-image: linear-gradient(to right, #6e3636, #36E8B0) 1;
 }
 
 /*section.portfolio START*/
