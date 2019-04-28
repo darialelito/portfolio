@@ -47,7 +47,7 @@
                 <div class="col-8 horizontal-img">
                     <div class="mask"></div>
                 </div>
-                <div class="col-4 mint d-flex align-items-center justify-content-center">
+                <div class="col-4 mint d-flex align-items-center justify-content-center contactButton">
                     <p class="text-light bg-dark">#contact</p>
                 </div>
             </div>
@@ -59,7 +59,7 @@
         <div class="container about">
             <div class="row">
                 <div class="col-12">
-                    <p class="section_about__p">Z wykształcenia - <span class="wordColor">farmaceutka</span>, która zainteresowała się front-endem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, accusantium aliquid. Commodi laudantium, magnam expedita reiciendis nisi tempora aperiam aliquid, voluptate recusandae eaque suscipit. Explicabo facilis dolorum quas consequuntur.</p>
+                    <p class="section_about__p">I'm a <span class="wordColor">pharmacist</span> with energy to change. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, accusantium aliquid. Commodi laudantium, magnam expedita reiciendis nisi tempora aperiam aliquid, voluptate recusandae eaque suscipit. Explicabo facilis dolorum quas consequuntur.</p>
                 </div>
             </div>
             <span class="border-bottom border-bottom-custom"></span>
@@ -71,7 +71,7 @@
         <h3 class="portfolio_h3">portfolio</h3>
         <div class="container portfolio">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-md-4">
                     <div class="portfolio_item">
                         <div class="portfolio-image one">
                             <div class="portfolio-mask">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-md-4">
                     <div class="portfolio_item">
                         <div class="portfolio-image two">
                             <div class="portfolio-mask">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-md-4">
                     <div class="portfolio_item">
                         <div class="portfolio-image three">
                             <div class="portfolio-mask">
@@ -104,11 +104,35 @@
                     </div>
                 </div>
             </div>
+            <span class="border-bottom border-bottom-custom"></span>
         </div>
     </section>
 
+    <section class="section_contact">
+        <div class="container">
+            <h3 class="contact_h3">contact</h3>
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-6">
+                    <form action="https://formspree.io/darialelito@gmail.com" method=”POST” class="row">
+                        <div class="col-12 contact-form">
+                            <input type="email" name="mail" placeholder="your e-mail" class="form-control form-control-custom">
+                        </div>
+                        <div class="col-12 contact-form">
+                            <textarea name="message" id="message" rows="5" placeholder="your message" class="form-control form-control-custom"></textarea>
+                        </div>
+                        <div class="col-12 contact-form">
+                            <input class="btn btn-outline-dark" type="submit" value="send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer-arrow socialIcons">
+            <i class="fas fa-arrow-up"></i>
+        </div>
         <div class="footer-socialIcons">
             <a href="https://github.com/darialelito" target="_blank" class="socialIcons"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/darialelito/" target="_blank" class="socialIcons"><i class="fab fa-linkedin-in"></i></a>
